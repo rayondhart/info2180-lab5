@@ -1,0 +1,79 @@
+/* Add your own styles */
+
+body{
+    background-color: cyan;
+}
+
+header{
+    display: grid;
+    grid-template-rows: 1px;
+    background-color: darksalmon;
+    padding-top: 20px ;
+    padding-bottom: 10px;
+    padding-left: 120px;
+}
+
+img{
+    max-width: 90px;
+    margin-left: 350px;
+}
+
+h1{
+    text-align: center;
+}
+
+#controls{
+    padding-top: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#country{
+    margin-left: 510px ;
+    width: 350px;
+}
+
+.btns{
+    display: flex;
+    flex-direction: row;
+}
+
+
+#lookup{
+    margin-top: 5px;
+    margin-left: 570px;
+    width: 100px;
+}
+
+#lookup_cities{
+    margin-top: 5px;
+    margin-left: 20px;
+    width: 100px;
+    white-space: nowrap;
+}
+
+table{
+    margin-left: 340px;
+    margin-top: 30px;
+}
+
+th{
+    text-align: center;
+    padding-right: 50px;
+    padding-left: 20px;
+}
+
+
+table, td, th{
+    border: 1px solid;    
+}
+
+table{
+    border-collapse: collapse;
+    width: 50%;
+}
+
+tr:nth-child(even){
+    background-color: darksalmon;
+}
